@@ -1,0 +1,129 @@
+Model: MobileNetV2
+Epochs: 8
+Final Training Accuracy: 1.00
+Final Validation Accuracy: 0.991
+
+Model: EfficientNetB0
+Epochs: 8
+Final Validation Accuracy: 0.11
+
+
+
+Found 1108 files belonging to 10 classes.
+Using 887 files for training.
+Found 1108 files belonging to 10 classes.
+Using 221 files for validation.
+
+### MobileNetV2 Epoch:
+
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5
+[1m9406464/9406464[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Epoch 1/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m148s[0m 5s/step - accuracy: 0.5161 - loss: 1.6866 - val_accuracy: 0.9457 - val_loss: 0.2106
+Epoch 2/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m80s[0m 3s/step - accuracy: 0.9873 - loss: 0.1122 - val_accuracy: 0.9729 - val_loss: 0.0871
+Epoch 3/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m60s[0m 2s/step - accuracy: 0.9996 - loss: 0.0422 - val_accuracy: 0.9819 - val_loss: 0.0750
+Epoch 4/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m52s[0m 2s/step - accuracy: 0.9990 - loss: 0.0272 - val_accuracy: 0.9864 - val_loss: 0.0560
+Epoch 5/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m48s[0m 2s/step - accuracy: 1.0000 - loss: 0.0179 - val_accuracy: 0.9864 - val_loss: 0.0493
+Epoch 6/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m68s[0m 2s/step - accuracy: 1.0000 - loss: 0.0137 - val_accuracy: 0.9864 - val_loss: 0.0493
+Epoch 7/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m60s[0m 2s/step - accuracy: 1.0000 - loss: 0.0105 - val_accuracy: 0.9864 - val_loss: 0.0358
+Epoch 8/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m60s[0m 2s/step - accuracy: 1.0000 - loss: 0.0076 - val_accuracy: 0.9864 - val_loss: 0.0343
+
+
+EfficientNetB0 Epoch:
+
+Downloading data from https://storage.googleapis.com/keras-applications/efficientnetb0_notop.h5
+[1m16705208/16705208[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 0us/step
+Epoch 1/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m116s[0m 4s/step - accuracy: 0.1058 - loss: 2.3428 - val_accuracy: 0.0769 - val_loss: 2.3351
+Epoch 2/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m96s[0m 3s/step - accuracy: 0.1088 - loss: 2.3108 - val_accuracy: 0.1086 - val_loss: 2.3222
+Epoch 3/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m90s[0m 3s/step - accuracy: 0.1256 - loss: 2.3138 - val_accuracy: 0.1086 - val_loss: 2.3057
+Epoch 4/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m84s[0m 3s/step - accuracy: 0.1236 - loss: 2.3030 - val_accuracy: 0.1086 - val_loss: 2.3138
+Epoch 5/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m91s[0m 3s/step - accuracy: 0.1346 - loss: 2.2870 - val_accuracy: 0.0860 - val_loss: 2.3081
+Epoch 6/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m82s[0m 3s/step - accuracy: 0.1346 - loss: 2.2939 - val_accuracy: 0.1086 - val_loss: 2.3078
+Epoch 7/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m155s[0m 3s/step - accuracy: 0.1365 - loss: 2.2897 - val_accuracy: 0.0860 - val_loss: 2.3087
+Epoch 8/8
+[1m28/28[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m87s[0m 3s/step - accuracy: 0.1361 - loss: 2.2904 - val_accuracy: 0.1086 - val_loss: 2.3104
+
+
+MobileNetV2 Val Acc: 0.9864253401756287
+EfficientNetB0 Val Acc: 0.1085972860455513
+
+
+
+
+ ### Classification Report
+
+Generating predictions for evaluation...
+
+Validation Accuracy: 0.9864
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Baila Fish       1.00      0.96      0.98        24
+ Bujuri Fish       1.00      0.94      0.97        17
+ Chanda Fish       1.00      1.00      1.00        19
+Chapila Fish       0.93      1.00      0.96        26
+  Dhela Fish       1.00      1.00      1.00        21
+ Kachki Fish       0.96      1.00      0.98        27
+ Kajoli Fish       1.00      1.00      1.00        24
+   Mola Fish       1.00      0.95      0.97        20
+   Puti Fish       1.00      1.00      1.00        18
+ Tengra Fish       1.00      1.00      1.00        25
+
+    accuracy                           0.99       221
+   macro avg       0.99      0.98      0.99       221
+weighted avg       0.99      0.99      0.99       221
+
+
+
+### Evaluation Metrics
+
+precision    recall  f1-score   support
+
+        Bele     1.0000    0.9583    0.9787        24
+ Nama Chanda     1.0000    0.9412    0.9697        17
+       Chela     1.0000    1.0000    1.0000        19
+       Guchi     0.9286    1.0000    0.9630        26
+      Kachki     1.0000    1.0000    1.0000        21
+        Mola     0.9643    1.0000    0.9818        27
+  Kata Phasa     1.0000    1.0000    1.0000        24
+       Pabda     1.0000    0.9500    0.9744        20
+        Puti     1.0000    1.0000    1.0000        18
+      Tengra     1.0000    1.0000    1.0000        25
+
+    accuracy                         0.9864       221
+   macro avg     0.9893    0.9850    0.9868       221
+weighted avg     0.9872    0.9864    0.9865       221
+
+
+
+
+Evaluating 1 batches (25.0% of data)... 
+Evaluating 3 batches (50.0% of data)... 
+Evaluating 7 batches (100.0% of data)... 
+
+Accuracy @25% data: 0.9375
+Accuracy @50% data: 0.9896
+Accuracy @100% data: 0.9864
+
+
+
+### Evaluating Robustness
+
+Evaluating robustness with Gaussian Noise...
+
+Accuracy with Gaussian Noise (stddev=0.1): 0.7692
